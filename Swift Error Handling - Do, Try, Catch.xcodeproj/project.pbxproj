@@ -12,6 +12,8 @@
 		43BADD982332642500BEC0DF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43BADD962332642500BEC0DF /* Main.storyboard */; };
 		43BADD9A2332642700BEC0DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43BADD992332642700BEC0DF /* Assets.xcassets */; };
 		43BADD9D2332642700BEC0DF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43BADD9B2332642700BEC0DF /* LaunchScreen.storyboard */; };
+		43BADDA62332660C00BEC0DF /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43BADDA52332660C00BEC0DF /* String+Extension.swift */; };
+		43BADDA82332675E00BEC0DF /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43BADDA72332675E00BEC0DF /* Alert.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		43BADD992332642700BEC0DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		43BADD9C2332642700BEC0DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		43BADD9E2332642700BEC0DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		43BADDA52332660C00BEC0DF /* String+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
+		43BADDA72332675E00BEC0DF /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +58,24 @@
 		43BADD912332642500BEC0DF /* Swift Error Handling - Do, Try, Catch */ = {
 			isa = PBXGroup;
 			children = (
-				43BADD922332642500BEC0DF /* AppDelegate.swift */,
+				43BADDA4233265D200BEC0DF /* Supporting Files */,
+				43BADDA52332660C00BEC0DF /* String+Extension.swift */,
+				43BADDA72332675E00BEC0DF /* Alert.swift */,
 				43BADD942332642500BEC0DF /* ViewController.swift */,
+			);
+			path = "Swift Error Handling - Do, Try, Catch";
+			sourceTree = "<group>";
+		};
+		43BADDA4233265D200BEC0DF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				43BADD922332642500BEC0DF /* AppDelegate.swift */,
 				43BADD962332642500BEC0DF /* Main.storyboard */,
 				43BADD992332642700BEC0DF /* Assets.xcassets */,
 				43BADD9B2332642700BEC0DF /* LaunchScreen.storyboard */,
 				43BADD9E2332642700BEC0DF /* Info.plist */,
 			);
-			path = "Swift Error Handling - Do, Try, Catch";
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,6 +150,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				43BADD952332642500BEC0DF /* ViewController.swift in Sources */,
+				43BADDA62332660C00BEC0DF /* String+Extension.swift in Sources */,
+				43BADDA82332675E00BEC0DF /* Alert.swift in Sources */,
 				43BADD932332642500BEC0DF /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -283,7 +299,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "Swift Error Handling - Do, Try, Catch/Info.plist";
+				DEVELOPMENT_TEAM = RVLGC3GB8K;
+				INFOPLIST_FILE = "$(SRCROOT)/Swift Error Handling - Do, Try, Catch/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -300,7 +317,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "Swift Error Handling - Do, Try, Catch/Info.plist";
+				DEVELOPMENT_TEAM = RVLGC3GB8K;
+				INFOPLIST_FILE = "$(SRCROOT)/Swift Error Handling - Do, Try, Catch/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
